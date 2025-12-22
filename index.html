@@ -6,51 +6,14 @@
     <title>Мой блог</title>
     <link type="text/css" rel="stylesheet" href="style.css">
     <style>
-        /* Стили для картинок елок */
-        .tree-side {
-            position: fixed;
-            top: 50%;
-            transform: translateY(-50%);
-            width: 150px;
-            height: auto;
-            z-index: -1;
-            opacity: 0.8;
-            filter: drop-shadow(2px 2px 5px rgba(0,0,0,0.3));
-        }
-        
-        .tree-left {
-            left: 10px;
-        }
-        
-        .tree-right {
-            right: 10px;
-        }
-        
-        /* Для очень высоких экранов */
-        @media (min-height: 900px) {
-            .tree-side {
-                width: 180px;
-            }
-        }
-        
-        /* Для мобильных устройств - скрыть боковые елки */
-        @media (max-width: 768px) {
-            .tree-side {
-                display: none;
-            }
-        }
-        
         /* Основной контент */
         .main-content {
             max-width: 800px;
             margin: 0 auto;
             padding: 40px 20px;
-            position: relative;
-            z-index: 1;
             background-color: rgba(255, 255, 255, 0.9);
             border-radius: 15px;
             box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
-            min-height: 100vh;
         }
         
         /* Центрирование элементов */
@@ -67,37 +30,25 @@
             border: 3px solid #228b22;
             border-radius: 10px;
         }
+        
+        /* Анимация для кнопок */
+        .nav-button {
+            transition: transform 0.3s, box-shadow 0.3s;
+            display: block;
+            width: 200px;
+            padding: 15px;
+            border-radius: 10px;
+            text-decoration: none;
+            text-align: center;
+        }
+        
+        .nav-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+        }
     </style>
 </head>
 <body>
-    <!-- Красивая елка слева -->
-    <div class="tree-side tree-left">
-        <!-- Если скачали картинку с Freepik -->
-        <img src="icons/christmas-tree.png" alt="Рождественская елка" style="width: 100%; height: auto;">
-        
-        <!-- Если нет картинки, покажем текст -->
-        <div style="display: none;">
-            <p style="color: #228b22; text-align: center; font-size: 12px;">
-                Скачайте красивые елки с:<br>
-                <a href="https://www.freepik.com" target="_blank">Freepik.com</a>
-            </p>
-        </div>
-    </div>
-    
-    <!-- Красивая елка справа -->
-    <div class="tree-side tree-right">
-        <!-- Если скачали картинку с Freepik -->
-        <img src="icons/christmas-tree.png" alt="Рождественская елка" style="width: 100%; height: auto; transform: scaleX(-1);">
-        
-        <!-- Если нет картинки, покажем текст -->
-        <div style="display: none;">
-            <p style="color: #228b22; text-align: center; font-size: 12px;">
-                Скачайте красивые елки с:<br>
-                <a href="https://www.freepik.com" target="_blank">Freepik.com</a>
-            </p>
-        </div>
-    </div>
-    
     <div class="main-content">
         <h2 style="text-align: center; color: #d2048c;">🎅 23 декабря, 2025 🎅</h2>
         
@@ -133,7 +84,8 @@
             </p>
         </div>
 
-        <p class="quote" style="text-align: center; font-size: 20px; margin: 30px 0; color: #d2048c;">
+        <!-- ИЗМЕНЕНО: Красный цвет для поздравления -->
+        <p class="quote" style="text-align: center; font-size: 20px; margin: 30px 0; color: #ff0000; font-weight: bold;">
             Поздравляю с наступающим Рождеством 2026! 🎄
         </p>
         
@@ -143,19 +95,22 @@
             
             <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; margin: 20px 0;">
                 <a href="krossvordRU.html" 
-                   style="display: block; width: 200px; padding: 15px; background: #228b22; color: white; border-radius: 10px; text-decoration: none; text-align: center; transition: transform 0.3s;">
+                   class="nav-button"
+                   style="background: #228b22; color: white;">
                     <div style="font-size: 24px;">🇷🇺</div>
                     <strong>Русский кроссворд</strong>
                 </a>
                 
                 <a href="krossvordEN.html" 
-                   style="display: block; width: 200px; padding: 15px; background: #d2048c; color: white; border-radius: 10px; text-decoration: none; text-align: center; transition: transform 0.3s;">
+                   class="nav-button"
+                   style="background: #d2048c; color: white;">
                     <div style="font-size: 24px;">🇬🇧</div>
                     <strong>English Crossword</strong>
                 </a>
                 
                 <a href="Congratulations2026.html"
-                   style="display: block; width: 200px; padding: 15px; background: #FFD700; color: #333; border-radius: 10px; text-decoration: none; text-align: center; transition: transform 0.3s;">
+                   class="nav-button"
+                   style="background: #FFD700; color: #333;">
                     <div style="font-size: 24px;">📜</div>
                     <strong>Поздравление</strong>
                 </a>
@@ -163,52 +118,24 @@
         </div>
         
         <!-- Информация об иконках -->
+        <!-- ИЗМЕНЕНО: Красный цвет для текста про иконки -->
         <div style="margin-top: 40px; padding-top: 20px; border-top: 2px dashed #ccc; text-align: center;">
-            <p style="color: #666; font-size: 14px;">
+            <p style="color: #ff0000; font-size: 14px;">
                 Иконки: 
-                <a href="https://www.flaticon.com/ru/free-icons/-" title="Рождественский колокол иконки" style="color: #d2048c;">
+                <a href="https://www.flaticon.com/ru/free-icons/-" title="Рождественский колокол иконки" style="color: #ff0000;">
                     Рождественский колокол иконки от Pixelmeetup - Flaticon
-                </a>
-            </p>
-            <p style="color: #666; font-size: 14px; margin-top: 5px;">
-                Елки: 
-                <a href="https://www.freepik.com" target="_blank" style="color: #228b22;">
-                    Красочная рождественская елка от Freepik
                 </a>
             </p>
         </div>
     </div>
     
     <script>
-        // Добавим анимацию при наведении на ссылки
+        // Проверка загрузки видео
         document.addEventListener('DOMContentLoaded', function() {
-            const links = document.querySelectorAll('a[href*="krossvord"], a[href*="Congratulations"]');
-            links.forEach(link => {
-                link.addEventListener('mouseenter', function() {
-                    this.style.transform = 'scale(1.05)';
-                });
-                link.addEventListener('mouseleave', function() {
-                    this.style.transform = 'scale(1)';
-                });
-            });
-            
-            // Проверка загрузки видео
             const video = document.querySelector('video');
             if (video) {
                 video.addEventListener('error', function() {
-                    const videoContainer = document.querySelector('.center-content');
-                    if (videoContainer) {
-                        videoContainer.innerHTML += `
-                            <div style="color: #d2048c; background: #fff0f5; padding: 15px; border-radius: 10px; margin-top: 20px; border: 2px dashed #d2048c;">
-                                <p>⚠ <strong>Совет по видео:</strong></p>
-                                <p>Для загрузки красивых новогодних видео посетите:</p>
-                                <ul style="text-align: left; margin-left: 20px;">
-                                    <li><a href="https://pixabay.com/videos/search/christmas/" target="_blank" style="color: #228b22;">Pixabay - бесплатные видео</a></li>
-                                    <li><a href="https://www.pexels.com/search/videos/christmas/" target="_blank" style="color: #228b22;">Pexels - стоковые видео</a></li>
-                                </ul>
-                            </div>
-                        `;
-                    }
+                    console.log('Видео не загружается');
                 });
                 
                 // Попытка загрузить видео
