@@ -1,0 +1,111 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Страница-1" id="OrSt_4U1avaAVkvS3lPJ">
+    <mxGraphModel dx="2231" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Hp_HObC-zrbU622RHbkV-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="стомотология" vertex="1">
+          <mxGeometry height="40" width="120" x="414" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Hp_HObC-zrbU622RHbkV-3" edge="1" parent="1" source="Hp_HObC-zrbU622RHbkV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Hp_HObC-zrbU622RHbkV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hp_HObC-zrbU622RHbkV-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="стаж 7 лет" vertex="1">
+          <mxGeometry height="40" width="120" x="350" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Hp_HObC-zrbU622RHbkV-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="каб3333" vertex="1">
+          <mxGeometry height="40" width="120" x="-10" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Hp_HObC-zrbU622RHbkV-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;специалист&lt;/div&gt;&lt;div&gt;хирург-стоматолог&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="230" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Hp_HObC-zrbU622RHbkV-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="алексютина В.А" vertex="1">
+          <mxGeometry height="40" width="120" x="110" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Hp_HObC-zrbU622RHbkV-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="врач" vertex="1">
+          <mxGeometry height="40" width="120" x="-130" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Hp_HObC-zrbU622RHbkV-11" edge="1" parent="1" source="Hp_HObC-zrbU622RHbkV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Hp_HObC-zrbU622RHbkV-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hp_HObC-zrbU622RHbkV-13" edge="1" parent="1" source="Hp_HObC-zrbU622RHbkV-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Hp_HObC-zrbU622RHbkV-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hp_HObC-zrbU622RHbkV-14" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="210" />
+            </Array>
+            <mxPoint x="330" y="270" as="sourcePoint" />
+            <mxPoint x="440" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hp_HObC-zrbU622RHbkV-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="операция " vertex="1">
+          <mxGeometry height="40" width="120" x="90" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Hp_HObC-zrbU622RHbkV-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;удлаление зубов&lt;/div&gt;&lt;div&gt;мудрости&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="210" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Hp_HObC-zrbU622RHbkV-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;хирург-стоматолог&lt;/div&gt;&lt;div&gt;Алексютина В.А&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="330" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Hp_HObC-zrbU622RHbkV-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;мед.спестра&lt;/div&gt;&lt;div&gt;Левицкая А.Л&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="450" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Hp_HObC-zrbU622RHbkV-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;дата проведение&lt;/div&gt;&lt;div&gt;10.11.2024&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="570" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Hp_HObC-zrbU622RHbkV-22" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="400" />
+            </Array>
+            <mxPoint x="540" y="280" as="sourcePoint" />
+            <mxPoint x="530" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hp_HObC-zrbU622RHbkV-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="мед.сестра" vertex="1">
+          <mxGeometry height="40" width="120" x="590" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Hp_HObC-zrbU622RHbkV-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Левицкая А.Л" vertex="1">
+          <mxGeometry height="40" width="120" x="710" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Hp_HObC-zrbU622RHbkV-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;спец&lt;/div&gt;&lt;div&gt;асистент хирурга &lt;br&gt;&lt;/div&gt;&lt;div&gt;стоматолога&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="830" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Hp_HObC-zrbU622RHbkV-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="каб4489" vertex="1">
+          <mxGeometry height="40" width="120" x="950" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Hp_HObC-zrbU622RHbkV-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;стаж&lt;/div&gt;&lt;div&gt;2 года&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="1050" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Hp_HObC-zrbU622RHbkV-31" edge="1" parent="1" source="Hp_HObC-zrbU622RHbkV-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Hp_HObC-zrbU622RHbkV-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hp_HObC-zrbU622RHbkV-32" edge="1" parent="1" source="Hp_HObC-zrbU622RHbkV-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Hp_HObC-zrbU622RHbkV-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hp_HObC-zrbU622RHbkV-33" edge="1" parent="1" source="Hp_HObC-zrbU622RHbkV-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Hp_HObC-zrbU622RHbkV-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hp_HObC-zrbU622RHbkV-35" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="250" />
+            </Array>
+            <mxPoint x="560" y="180" as="sourcePoint" />
+            <mxPoint x="560" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0uFqTQL5-H4KjjpFu5p6" name="Страница-2">
+    <mxGraphModel dx="1404" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
